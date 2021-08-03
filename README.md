@@ -1,4 +1,4 @@
-# IBM Cloud - Crear Volumen de Almacenamiento ☁🖥💾
+# IBM Cloud - Crear Volumen de Almacenamiento ☁💾
 
 ## Índice  📰
 1. [Pre-Requisitos](#Pre-Requisitos-pencil)
