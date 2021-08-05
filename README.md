@@ -158,9 +158,6 @@ Para consultar el servicio de almacenamiento *Object Storage* implementado en la
 <p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/ConsultarObjectStorage.gif"></p>
 <br />
 
-## Crear servicio de almacenamiento Block Storage for VPC :cloud: :package:
-<br />
-
 ## Crear volumen de almacenamiento Block Storage for VPC :cloud: :package:
 <br />
 
