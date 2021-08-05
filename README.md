@@ -8,8 +8,9 @@
 5. [Consultar servicio de almacenamiento Block Storage](#Consultar-servicio-de-almacenamiento-Block-Storage-mag-package)
 6. [Crear servicio de almacenamiento Object Storage](#Crear-servicio-de-almacenamiento-Object-Storage-file_cabinet)
 7. [Consultar servicio de almacenamiento Object Storage](#Consultar-servicio-de-almacenamiento-Object-Storage-mag-file_cabinet)
-8. [Referencias](#Referencias-pushpin)
-9. [Autores](#Autores-black_nib)
+8. [Crear servicio de almacenamiento Block Storage for VPC](#Crear-servicio-de-almacenamiento-Block-Storage-for-VPC-cloud-package)
+9. [Referencias](#Referencias-pushpin)
+10. [Autores](#Autores-black_nib)
 
 
 ## Pre-requisitos :pencil:
@@ -54,6 +55,9 @@ Para crear el servicio de almacenamiento *File Storage* en su cuenta de *IBM Clo
 <br />
 
 ## Consultar servicio de almacenamiento Object Storage :mag: :file_cabinet:
+<br />
+
+## Crear servicio de almacenamiento Block Storage for VPC :cloud: :package:
 <br />
 
 ## Referencias :pushpin:
