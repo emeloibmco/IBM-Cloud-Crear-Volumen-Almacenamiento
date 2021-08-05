@@ -42,6 +42,17 @@
 <br />
 
 ## Referencias :pushpin:
+**File Storage**
+* <a href="https://cloud.ibm.com/docs/FileStorage?topic=FileStorage-getting-started">Getting started with File Storage</a>.
+* <a href="https://cloud.ibm.com/docs/FileStorage?topic=FileStorage-orderingFileStorage&interface=ui#orderingFileStorageUI">Ordering File Storage</a>.
+<br />
+
+**Block Storage**
+* <a href="https://cloud.ibm.com/docs/BlockStorage/index.html#getting-started-with-block-storage">Getting started with Block Storage</a>.
+<br />
+
+**Object Storage**
+* <a href="https://cloud.ibm.com/docs/cloud-object-storage?topic=cloud-object-storage-getting-started-cloud-object-storage">Getting started with IBM Cloud Object Storage</a>.
 <br />
 
 ## Autores :black_nib:
