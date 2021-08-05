@@ -31,13 +31,13 @@ Para crear el servicio de almacenamiento *File Storage* en su cuenta de *IBM Clo
 * ```Ubicación/Location```: seleccione la ubicación en la cual desplegará el servicio.
 
 **Detalles/Details**: 
-* ```Método de Facturacción/Billing Method```: Por horas/For Hours.
-* ```Tamaño/Size```: 20.
-* ```Espacio de Instantáneas/Snapshot Space```: 20 GB.
+* ```Método de Facturacción/Billing Method```: seleccione el método de facturación que desea utilizar ya se Por horas/For hours o Por meses/For month.
+* ```Tamaño/Size```: especifique el tamaño, recuerde que debe ser un valor entre 20 y 12000 GB.
+* ```Espacio de Instantáneas/Snapshot Space```: especifique el espacio de las instantáneas.
 
 **Perfil de IOPS/IOPS Profile**: 
-* ```Resistencia (niveles)/Resistance (levels)```: 2 IOPS/GB.
-* ```Rendimiento (personalizadas)/Performance (custom)```: 100
+* ```Resistencia (niveles)/Resistance (levels)```: seleccione el nivel de resistencia en IOPS/GB.
+* ```Rendimiento (personalizadas)/Performance (custom)```: Deje el valor por defecto (100).
 <br />
 
 4. Para finalizar, acepte los terminos y condiciones y de click en el botón ```Crear/To Create```.
@@ -71,12 +71,57 @@ Para consultar el servicio de almacenamiento *File Storage* implementado en la s
 <br />
 
 ## Crear servicio de almacenamiento Block Storage :package:
+Para crear el servicio de almacenamiento *Block Storage* en su cuenta de *IBM Cloud* complete los siguientes pasos:
+<br />
+
+1. Acceda al catálogo y busque el servicio *Block Storage* en la categoría del Almacenamiento.
+<br />
+
+2. Seleccione el servicio *Block Storage*. Posteriormente, se abrirá una ventana en la cual e muestra información relacionada con el servicio. De click en el botón ```Crear/To Create```.
+<br />
+
+3. Une vez cargue la nueva ventana complete la configuración del servicio de la siguiente manera:
+* ```Ubicación/Location```: seleccione la ubicación en la cual desplegará el servicio.
+
+**Detalles/Details**: 
+* ```Método de Facturacción/Billing Method```: seleccione el método de facturación que desea utilizar ya se Por horas/For hours o Por meses/For month.
+* ```Tamaño/Size```: especifique el tamaño, recuerde que debe ser un valor entre 20 y 12000 GB.
+* ```Espacio de Instantáneas/Snapshot Space```: especifique el espacio de las instantáneas.
+* ```Tipo de SO/SO Type```: determine el tipo de sistema operativo que va utilizar.
+
+**Perfil de IOPS/IOPS Profile**: 
+* ```Resistencia (niveles)/Resistance (levels)```: seleccione el nivel de resistencia en IOPS/GB.
+* ```Rendimiento (personalizadas)/Performance (custom)```: Deje el valor por defecto (100).
+<br />
+
+4. Para finalizar, acepte los terminos y condiciones y de click en el botón ```Crear/To Create```.
+<br />
+
 <p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/Crear%20Block%20Storage.gif"></p>
+
+Observe las configuraciones realizadas en inglés.
+<br />
 
 <p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/BlockStorageEN.png"></p>
 <br />
 
+5. Espere unos minutos mientras se completa el aprovisionamiento del servicio de almacenamiento y observe su recurso en la ```Lista de Recursos/Resource List```.
+<br />
+
+<p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/RS_BlockStorage.PNG"></p>
+<br />
+
+> NOTA: En caso de no contar con los permisos para ver el recurso en la ```Lista de Recursos/Resource List```, puede ver el servicio de almacenamiento ingresando por ```Menú de navegación/Navigation Menu``` ➡ ```Infraestructura Clásica/Classic Infrastructure``` ➡ ```Almacenamiento/Storage``` ➡ ```File Storage```, como se muestra en la siguiente imagen.
+<br />
+
+<p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/AccesoBlocktStorage.gif"></p>
+<br />
+
 ## Consultar servicio de almacenamiento Block Storage :mag: :package:
+Para consultar el servicio de almacenamiento *Block Storage* implementado en la sección anterior, de click sobre su recurso. Luego podrá observar las diferentes opciones que aparecen.
+<br />
+
+<p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/ConsultaBlockStorage.gif"></p>
 <br />
 
 ## Crear servicio de almacenamiento Object Storage :file_cabinet:
