@@ -38,7 +38,7 @@ Para crear el servicio de almacenamiento *File Storage* en su cuenta de *IBM Clo
 <p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/FileStorageEN.png"></p>
 <br />
 
-## Consultar servicio de almacenamiento File Storage :mag: :card_file_box:
+## Consultar servicio de almacenamiento File Storage :mag::card_file_box:
 <br />
 
 ## Crear servicio de almacenamiento Block Storage :package:
@@ -47,14 +47,14 @@ Para crear el servicio de almacenamiento *File Storage* en su cuenta de *IBM Clo
 <p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/BlockStorageEN.png"></p>
 <br />
 
-## Consultar servicio de almacenamiento Block Storage :mag: :package:
+## Consultar servicio de almacenamiento Block Storage :mag::package:
 <br />
 
 ## Crear servicio de almacenamiento Object Storage :file_cabinet:
 <p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/Crear%20Object%20Storage.gif"></p>
 <br />
 
-## Consultar servicio de almacenamiento Object Storage :mag: :file_cabinet:
+## Consultar servicio de almacenamiento Object Storage :mag::file_cabinet:
 <br />
 
 ## Crear servicio de almacenamiento Block Storage for VPC :cloud: :package:
