@@ -15,6 +15,7 @@
 
 ## Pre-requisitos :pencil:
 * Contar con una cuenta en <a href="https://cloud.ibm.com/"> IBM Cloud </a>.
+* Contar con una VPC y un grupo de recursos.
 <br />
 
 ## Crear servicio de almacenamiento File Storage :card_file_box:
@@ -27,7 +28,7 @@ Para crear el servicio de almacenamiento *File Storage* en su cuenta de *IBM Clo
 2. Seleccione el servicio *File Storage*. Posteriormente, se abrirá una ventana en la cual se muestra información relacionada con el servicio. De click en el botón ```Crear/To Create```.
 <br />
 
-3. Une vez cargue la nueva ventana complete la configuración del servicio de la siguiente manera:
+3. Una vez cargue la nueva ventana complete la configuración del servicio de la siguiente manera:
 * ```Ubicación/Location```: seleccione la ubicación en la cual desplegará el servicio.
 
 **Detalles/Details**: 
@@ -80,7 +81,7 @@ Para crear el servicio de almacenamiento *Block Storage* en su cuenta de *IBM Cl
 2. Seleccione el servicio *Block Storage*. Posteriormente, se abrirá una ventana en la cual se muestra información relacionada con el servicio. De click en el botón ```Crear/To Create```.
 <br />
 
-3. Une vez cargue la nueva ventana complete la configuración del servicio de la siguiente manera:
+3. Una vez cargue la nueva ventana complete la configuración del servicio de la siguiente manera:
 * ```Ubicación/Location```: seleccione la ubicación en la cual desplegará el servicio.
 
 **Detalles/Details**: 
@@ -125,10 +126,34 @@ Para consultar el servicio de almacenamiento *Block Storage* implementado en la 
 <br />
 
 ## Crear servicio de almacenamiento Object Storage :file_cabinet:
+Para crear el servicio de almacenamiento *Object Storage* en su cuenta de *IBM Cloud* complete los siguientes pasos:
+<br />
+
+1. Acceda al catálogo y busque el servicio *Object Storage* en la categoría del Almacenamiento.
+<br />
+
+2. Seleccione el servicio *Object Storage*. Posteriormente, se abrirá una ventana en la cual se muestra información relacionada con el servicio. De click en el botón ```Crear/To Create```.
+<br />
+
+3. Una vez cargue la nueva ventana complete la configuración del servicio de la siguiente manera:
+* ```Seleccionar un plan de precios/Select a pricing plan```: especifique el plan de precios que desea utilizar para el despliegue de su servicio.
+
+**Configurar su recurso/Configure your resource**: 
+* ```Nombre de servicio/Service name```: indique un nombre exclusivo para su servicio.
+* ```Seleccionar un grupo de recursos/Select a resource group```: especifique el grupo de recursos en el que va a trabajar.
+<br />
+
+4. Para finalizar, acepte los terminos y condiciones y de click en el botón ```Crear/To Create```.
+<br />
+
 <p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/Crear%20Object%20Storage.gif"></p>
 <br />
 
 ## Consultar servicio de almacenamiento Object Storage :mag: :file_cabinet:
+Para consultar el servicio de almacenamiento *Object Storage* implementado en la sección anterior, de click sobre su recurso. Luego podrá observar las diferentes opciones que aparecen.
+<br />
+
+<p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/ConsultarObjectStorage.gif"></p>
 <br />
 
 ## Crear servicio de almacenamiento Block Storage for VPC :cloud: :package:
