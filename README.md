@@ -143,7 +143,7 @@ Para crear el servicio de almacenamiento *Object Storage* en su cuenta de *IBM C
 * ```Seleccionar un grupo de recursos/Select a resource group```: especifique el grupo de recursos en el que va a trabajar.
 <br />
 
-4. Para finalizar, acepte los terminos y condiciones y de click en el botón ```Crear/To Create```.
+4. Para finalizar de click en el botón ```Crear/To Create```.
 <br />
 
 <p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/Crear%20Object%20Storage.gif"></p>
