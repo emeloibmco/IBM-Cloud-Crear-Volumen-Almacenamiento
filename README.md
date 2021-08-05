@@ -19,19 +19,28 @@
 
 ## Crear servicio de almacenamiento File Storage :card_file_box:
 Para crear el servicio de almacenamiento *File Storage* en su cuenta de *IBM Cloud* complete los siguientes pasos:
+<br />
 
 1. Acceda al catálogo y busque el servicio *File Storage* en la categoría del Almacenamiento.
 <br />
 
-2. Seleccione el servicio *File Storage*. Posteriormente, se abrirá una ventana en la cual e muestra información relacionada con el servicio. De click en el botón ```Crear``` o ```To Create```.
+2. Seleccione el servicio *File Storage*. Posteriormente, se abrirá una ventana en la cual e muestra información relacionada con el servicio. De click en el botón ```Crear/To Create```.
 <br />
 
 3. Une vez cargue la nueva ventana complete la configuración del servicio de la siguiente manera:
 * ```Ubicación/Location```: seleccione la ubicación en la cual desplegará el servicio.
+
 * ```Detalles/Details```: 
-  * ```Método de Facturacción/Billing Method```:
-  * ```Tamaño/Size```:
-  * ```Espacio de Instantáneas/Snapshot Space```:
+  * ```Método de Facturacción/Billing Method```: Por horas/For Hours.
+  * ```Tamaño/Size```: 20.
+  * ```Espacio de Instantáneas/Snapshot Space```: 20 GB.
+
+* ```Perfil de IOPS/IOPS Profile```: 
+  * ```Resistencia (niveles)/Resistance (levels)```: 2 IOPS/GB.
+  * ```Rendimiento (personalizadas)/Performance (custom)```: 100
+<br />
+
+4. Para finalizar, acepte los terminos y condiciones y de click en el botón ```Crear/To Create```.
 
 <p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/Crear%20File%20Storage.gif"></p>
 
