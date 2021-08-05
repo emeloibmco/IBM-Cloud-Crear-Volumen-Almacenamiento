@@ -46,6 +46,8 @@ Para crear el servicio de almacenamiento *File Storage* en su cuenta de *IBM Clo
 <p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/Crear%20File%20Storage.gif"></p>
 
 Observe las configuraciones realizadas en inglés.
+<br />
+
 <p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/FileStorageEN.png"></p>
 <br />
 
