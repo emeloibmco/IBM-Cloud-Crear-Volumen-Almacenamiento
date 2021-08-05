@@ -24,7 +24,7 @@ Para crear el servicio de almacenamiento *File Storage* en su cuenta de *IBM Clo
 1. Acceda al catálogo y busque el servicio *File Storage* en la categoría del Almacenamiento.
 <br />
 
-2. Seleccione el servicio *File Storage*. Posteriormente, se abrirá una ventana en la cual e muestra información relacionada con el servicio. De click en el botón ```Crear/To Create```.
+2. Seleccione el servicio *File Storage*. Posteriormente, se abrirá una ventana en la cual se muestra información relacionada con el servicio. De click en el botón ```Crear/To Create```.
 <br />
 
 3. Une vez cargue la nueva ventana complete la configuración del servicio de la siguiente manera:
@@ -77,7 +77,7 @@ Para crear el servicio de almacenamiento *Block Storage* en su cuenta de *IBM Cl
 1. Acceda al catálogo y busque el servicio *Block Storage* en la categoría del Almacenamiento.
 <br />
 
-2. Seleccione el servicio *Block Storage*. Posteriormente, se abrirá una ventana en la cual e muestra información relacionada con el servicio. De click en el botón ```Crear/To Create```.
+2. Seleccione el servicio *Block Storage*. Posteriormente, se abrirá una ventana en la cual se muestra información relacionada con el servicio. De click en el botón ```Crear/To Create```.
 <br />
 
 3. Une vez cargue la nueva ventana complete la configuración del servicio de la siguiente manera:
