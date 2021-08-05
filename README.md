@@ -51,6 +51,12 @@ Observe las configuraciones realizadas en inglés.
 <p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/FileStorageEN.png"></p>
 <br />
 
+5. Espere unos minutos mientras se completa el aprovisionamiento del servicio de almacenamiento y observe su recurso en la ```Lista de Recursos/Resource List```.
+<br />
+
+<p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/RS_FileStorage.PNG"></p>
+<br />
+
 ## Consultar servicio de almacenamiento File Storage :mag::card_file_box:
 <br />
 
