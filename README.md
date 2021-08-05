@@ -8,9 +8,11 @@
 5. [Consultar servicio de almacenamiento Block Storage](#Consultar-servicio-de-almacenamiento-Block-Storage-mag-package)
 6. [Crear servicio de almacenamiento Object Storage](#Crear-servicio-de-almacenamiento-Object-Storage-file_cabinet)
 7. [Consultar servicio de almacenamiento Object Storage](#Consultar-servicio-de-almacenamiento-Object-Storage-mag-file_cabinet)
-8. [Crear servicio de almacenamiento Block Storage for VPC](#Crear-servicio-de-almacenamiento-Block-Storage-for-VPC-cloud-package)
-9. [Referencias](#Referencias-pushpin)
-10. [Autores](#Autores-black_nib)
+8. [Crear volumen de almacenamiento Block Storage for VPC](#Crear-volumen-de-almacenamiento-Block-Storage-for-VPC-cloud-package)
+9. [Adjuntar volumen de almacenamiento Block Storage a una VSI en VPC](#Adjuntar-volumen-de-almacenamiento-Block-Storage-a-una-VSI-en-VPC-cloud-package)
+10. [Consultar volumen de almacenamiento Block Storage desde una VSI en VPC](#Consultar-volumen-de-almacenamiento-Block-Storage-desde-una-VSI-en-VPC-cloud-package)
+11. [Referencias](#Referencias-pushpin)
+12. [Autores](#Autores-black_nib)
 
 
 ## Pre-requisitos :pencil:
@@ -157,6 +159,15 @@ Para consultar el servicio de almacenamiento *Object Storage* implementado en la
 <br />
 
 ## Crear servicio de almacenamiento Block Storage for VPC :cloud: :package:
+<br />
+
+## Crear volumen de almacenamiento Block Storage for VPC :cloud: :package:
+<br />
+
+## Adjuntar volumen de almacenamiento Block Storage a una VSI en VPC :cloud: :package:
+<br />
+
+## Consultar volumen de almacenamiento Block Storage desde una VSI en VPC :cloud: :package:
 <br />
 
 ## Referencias :pushpin:
