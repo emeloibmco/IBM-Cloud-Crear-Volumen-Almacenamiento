@@ -57,7 +57,12 @@ Observe las configuraciones realizadas en inglés.
 <p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/RS_FileStorage.PNG"></p>
 <br />
 
-## Consultar servicio de almacenamiento File Storage :mag::card_file_box:
+> NOTA: En caso de no contar con los permisos para ver el recurso en la ```Lista de Recursos/Resource List```, puede ver el servicio de almacenamiento ingresando por ```Menú de navegación/Navigation Menu``` ➡ ```Infraestructura Clásica/Classic Infraestructure``` ➡ ```Tamaño/Size``` ➡ ```Almacenamiento/Storage``` ➡ ```File Storage```, como se muestra en la siguiente imagen.
+
+<p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/AccesoFileStorage.gif"></p>
+
+
+## Consultar servicio de almacenamiento File Storage :mag: :card_file_box:
 <br />
 
 ## Crear servicio de almacenamiento Block Storage :package:
@@ -66,14 +71,14 @@ Observe las configuraciones realizadas en inglés.
 <p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/BlockStorageEN.png"></p>
 <br />
 
-## Consultar servicio de almacenamiento Block Storage :mag::package:
+## Consultar servicio de almacenamiento Block Storage :mag: :package:
 <br />
 
 ## Crear servicio de almacenamiento Object Storage :file_cabinet:
 <p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/Crear%20Object%20Storage.gif"></p>
 <br />
 
-## Consultar servicio de almacenamiento Object Storage :mag::file_cabinet:
+## Consultar servicio de almacenamiento Object Storage :mag: :file_cabinet:
 <br />
 
 ## Crear servicio de almacenamiento Block Storage for VPC :cloud: :package:
