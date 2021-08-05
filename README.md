@@ -6,7 +6,7 @@
 3. [Consultar servicio File Storage](#Consultar-servicio-File-Storage-mag-card_file_box)
 4. [Crear servicio Block Storage](#Crear-servicio-Block-Storage-package)
 5. [Consultar servicio Block Storage](#Consultar-servicio-Block-Storage-mag-package)
-6. [Crear servicio Object Storage](#Crear-servicio--Object-Storage-file_cabinet)
+6. [Crear servicio Object Storage](#Crear-servicio-Object-Storage-file_cabinet)
 7. [Consultar servicio Object Storage](#Consultar-servicio-Object-Storage-mag-file_cabinet)
 8. [Crear volumen de Block Storage for VPC](#Crear-volumen-de-Block-Storage-for-VPC-cloud-package)
 9. [Adjuntar volumen de Block Storage a una VSI en VPC](#Adjuntar-volumen-de-Block-Storage-a-una-VSI-en-VPC-cloud-package)
