@@ -150,7 +150,7 @@ Para consultar el servicio de almacenamiento *Block Storage* implementado en la 
 
 **Block Storage for VPC**
 * <a href="https://cloud.ibm.com/docs/vpc?topic=vpc-creating-block-storage&interface=ui">Creating block storage volumes</a>.
-* <a href="https://cloud.ibm.com/docs/vpc?topic=vpc-attaching-block-storage&interface=ui">Attaching a block storage volume</a>.
+* <a href="https://cloud.ibm.com/docs/vpc?topic=vpc-attaching-block-storage&interface=ui">Attaching a block storage volume to an instance</a>.
 <br />
 
 ## Autores :black_nib:
