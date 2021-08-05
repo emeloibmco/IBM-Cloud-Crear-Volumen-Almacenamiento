@@ -74,5 +74,10 @@ Para crear el servicio de almacenamiento *File Storage* en su cuenta de *IBM Clo
 * <a href="https://cloud.ibm.com/docs/cloud-object-storage?topic=cloud-object-storage-getting-started-cloud-object-storage">Getting started with IBM Cloud Object Storage</a>.
 <br />
 
+**Block Storage for VPC**
+* <a href="https://cloud.ibm.com/docs/vpc?topic=vpc-creating-block-storage&interface=ui">Creating block storage volumes</a>.
+* <a href="https://cloud.ibm.com/docs/vpc?topic=vpc-attaching-block-storage&interface=ui">Attaching a block storage volume</a>.
+<br />
+
 ## Autores :black_nib:
 Equipo *IBM Cloud Tech Sales Colombia*.
