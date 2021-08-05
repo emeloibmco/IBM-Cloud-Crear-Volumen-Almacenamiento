@@ -1,16 +1,18 @@
 # IBM Cloud - Crear Volumen de Almacenamiento ☁💾
+Los servidores virtuales son totalmente compatibles con *File Storage*, *Block Storage*, así como con *IBM® Cloud Object Storage*. Estos tipos de almacenamiento son los recomendados para unidades de clúster, almacenamiento de archivos compartidos, almacenamiento de archivado, grandes requisitos de almacenamiento o requisitos de rendimiento específicos.
 
+La presente guía esta enfocada en la creación y configuración de diferentes tipos de almacenamiento, asi como la capacidad de adjuntar un almacenamiento como un volumen a una VSI. 
 ## Índice  📰
 1. [Pre-Requisitos](#Pre-Requisitos-pencil)
-2. [Crear servicio File Storage](#Crear-servicio-File-Storage-card_file_box)
-3. [Consultar servicio File Storage](#Consultar-servicio-File-Storage-mag-card_file_box)
-4. [Crear servicio Block Storage](#Crear-servicio-Block-Storage-package)
-5. [Consultar servicio Block Storage](#Consultar-servicio-Block-Storage-mag-package)
-6. [Crear servicio Object Storage](#Crear-servicio-Object-Storage-file_cabinet)
-7. [Consultar servicio Object Storage](#Consultar-servicio-Object-Storage-mag-file_cabinet)
-8. [Crear volumen de Block Storage for VPC](#Crear-volumen-de-Block-Storage-for-VPC-cloud-package)
-9. [Adjuntar volumen de Block Storage a una VSI en VPC](#Adjuntar-volumen-de-Block-Storage-a-una-VSI-en-VPC-cloud-package)
-10. [Consultar volumen de Block Storage desde una VSI en VPC](#Consultar-volumen-de-Block-Storage-desde-una-VSI-en-VPC-cloud-package)
+2. [Crear servicio de almacenamiento File Storage](#Crear-servicio-de-almacenamiento-File-Storage-card_file_box)
+3. [Consultar servicio de almacenamiento File Storage](#Consultar-servicio-de-almacenamiento-File-Storage-mag-card_file_box)
+4. [Crear servicio de almacenamiento Block Storage](#Crear-servicio-de-almacenamiento-Block-Storage-package)
+5. [Consultar servicio de almacenamiento Block Storage](#Consultar-servicio-de-almacenamiento-Block-Storage-mag-package)
+6. [Crear servicio de almacenamiento Object Storage](#Crear-servicio-de-almacenamiento-Object-Storage-file_cabinet)
+7. [Consultar servicio de almacenamiento Object Storage](#Consultar-servicio-de-almacenamiento-Object-Storage-mag-file_cabinet)
+8. [Crear volumen de almacenamiento Block Storage for VPC](#Crear-volumen-de-almacenamiento-Block-Storage-for-VPC-cloud-package)
+9. [Adjuntar volumen de almacenamiento Block Storage a una VSI en VPC](#Adjuntar-volumen-de-almacenamiento-Block-Storage-a-una-VSI-en-VPC-cloud-package)
+10. [Consultar volumen de almacenamiento Block Storage desde una VSI en VPC](#Consultar-volumen-de-almacenamiento-Block-Storage-desde-una-VSI-en-VPC-cloud-package)
 11. [Referencias](#Referencias-pushpin)
 12. [Autores](#Autores-black_nib)
 
@@ -20,7 +22,7 @@
 * Contar con una VPC y un grupo de recursos.
 <br />
 
-## Crear servicio File Storage :card_file_box:
+## Crear servicio de almacenamiento File Storage :card_file_box:
 Para crear el servicio de almacenamiento *File Storage* en su cuenta de *IBM Cloud* complete los siguientes pasos:
 <br />
 
@@ -66,14 +68,14 @@ Observe las configuraciones realizadas en inglés.
 <p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/AccesoFileStorage.gif"></p>
 <br />
 
-## Consultar servicio File Storage :mag: :card_file_box:
+## Consultar servicio de almacenamiento File Storage :mag: :card_file_box:
 Para consultar el servicio de almacenamiento *File Storage* implementado en la sección anterior, de click sobre su recurso. Luego podrá observar las diferentes opciones que aparecen.
 <br />
 
 <p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/ConsultarFileStorage.gif"></p>
 <br />
 
-## Crear servicio Block Storage :package:
+## Crear servicio de almacenamiento Block Storage :package:
 Para crear el servicio de almacenamiento *Block Storage* en su cuenta de *IBM Cloud* complete los siguientes pasos:
 <br />
 
@@ -120,14 +122,14 @@ Observe las configuraciones realizadas en inglés.
 <p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/AccesoBlocktStorage.gif"></p>
 <br />
 
-## Consultar servicio Block Storage :mag: :package:
+## Consultar servicio de almacenamiento Block Storage :mag: :package:
 Para consultar el servicio de almacenamiento *Block Storage* implementado en la sección anterior, de click sobre su recurso. Luego podrá observar las diferentes opciones que aparecen.
 <br />
 
 <p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/ConsultaBlockStorage.gif"></p>
 <br />
 
-## Crear servicio Object Storage :file_cabinet:
+## Crear servicio de almacenamiento Object Storage :file_cabinet:
 Para crear el servicio de almacenamiento *Object Storage* en su cuenta de *IBM Cloud* complete los siguientes pasos:
 <br />
 
@@ -151,20 +153,20 @@ Para crear el servicio de almacenamiento *Object Storage* en su cuenta de *IBM C
 <p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/Crear%20Object%20Storage.gif"></p>
 <br />
 
-## Consultar servicio Object Storage :mag: :file_cabinet:
+## Consultar servicio de almacenamiento Object Storage :mag: :file_cabinet:
 Para consultar el servicio de almacenamiento *Object Storage* implementado en la sección anterior, de click sobre su recurso. Luego podrá observar las diferentes opciones que aparecen.
 <br />
 
 <p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/ConsultarObjectStorage.gif"></p>
 <br />
 
-## Crear volumen de Block Storage for VPC :cloud: :package:
+## Crear volumen de almacenamiento Block Storage for VPC :cloud: :package:
 <br />
 
-## Adjuntar volumen de Block Storage a una VSI en VPC :cloud: :package:
+## Adjuntar volumen de almacenamiento Block Storage a una VSI en VPC :cloud: :package:
 <br />
 
-## Consultar volumen de Block Storage desde una VSI en VPC :cloud: :package:
+## Consultar volumen de almacenamiento Block Storage desde una VSI en VPC :cloud: :package:
 <br />
 
 ## Referencias :pushpin:
