@@ -57,12 +57,17 @@ Observe las configuraciones realizadas en inglés.
 <p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/RS_FileStorage.PNG"></p>
 <br />
 
-> NOTA: En caso de no contar con los permisos para ver el recurso en la ```Lista de Recursos/Resource List```, puede ver el servicio de almacenamiento ingresando por ```Menú de navegación/Navigation Menu``` ➡ ```Infraestructura Clásica/Classic Infraestructure``` ➡ ```Almacenamiento/Storage``` ➡ ```File Storage```, como se muestra en la siguiente imagen.
+> NOTA: En caso de no contar con los permisos para ver el recurso en la ```Lista de Recursos/Resource List```, puede ver el servicio de almacenamiento ingresando por ```Menú de navegación/Navigation Menu``` ➡ ```Infraestructura Clásica/Classic Infrastructure``` ➡ ```Almacenamiento/Storage``` ➡ ```File Storage```, como se muestra en la siguiente imagen.
+<br />
 
 <p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/AccesoFileStorage.gif"></p>
-
+<br />
 
 ## Consultar servicio de almacenamiento File Storage :mag: :card_file_box:
+Para consultar el servicio de almacenamiento *File Storage* implementado en la sección anterior, de click sobre su recurso. Luego podrá observar las diferentes opciones que aparecen.
+<br />
+
+<p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/ConsultarFileStorage.gif"></p>
 <br />
 
 ## Crear servicio de almacenamiento Block Storage :package:
