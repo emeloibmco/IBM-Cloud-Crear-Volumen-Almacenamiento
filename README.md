@@ -30,20 +30,22 @@ Para crear el servicio de almacenamiento *File Storage* en su cuenta de *IBM Clo
 3. Une vez cargue la nueva ventana complete la configuración del servicio de la siguiente manera:
 * ```Ubicación/Location```: seleccione la ubicación en la cual desplegará el servicio.
 
-* ```Detalles/Details```: 
-  * ```Método de Facturacción/Billing Method```: Por horas/For Hours.
-  * ```Tamaño/Size```: 20.
-  * ```Espacio de Instantáneas/Snapshot Space```: 20 GB.
+**Detalles/Details**: 
+* ```Método de Facturacción/Billing Method```: Por horas/For Hours.
+* ```Tamaño/Size```: 20.
+* ```Espacio de Instantáneas/Snapshot Space```: 20 GB.
 
-* ```Perfil de IOPS/IOPS Profile```: 
-  * ```Resistencia (niveles)/Resistance (levels)```: 2 IOPS/GB.
-  * ```Rendimiento (personalizadas)/Performance (custom)```: 100
+**Perfil de IOPS/IOPS Profile**: 
+* ```Resistencia (niveles)/Resistance (levels)```: 2 IOPS/GB.
+* ```Rendimiento (personalizadas)/Performance (custom)```: 100
 <br />
 
 4. Para finalizar, acepte los terminos y condiciones y de click en el botón ```Crear/To Create```.
+<br />
 
 <p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/Crear%20File%20Storage.gif"></p>
 
+Observe las configuraciones realizadas en inglés.
 <p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/FileStorageEN.png"></p>
 <br />
 
