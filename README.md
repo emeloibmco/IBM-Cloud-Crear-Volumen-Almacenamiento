@@ -265,7 +265,7 @@ mount /dev/vdd1 /data1
 ```
 <br />
 
-<p align="center"><img width="300" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/MontarDisk.PNG"></p>
+<p align="center"><img width="400" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/MontarDisk.PNG"></p>
 <br />
 
 5. Se debe configurar el montaje de forma permanente mediante:
@@ -283,7 +283,7 @@ Dentro del editor agregue la línea:
 ```
 <br />
 
-<p align="center"><img width="300" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/Configurar2.PNG"></p>
+<p align="center"><img width="400" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/Configurar2.PNG"></p>
 <br />
 
 6. Realice la respectiva verificación con los comandos:
