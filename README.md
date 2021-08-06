@@ -19,7 +19,8 @@ La presente guía esta enfocada en la creación y configuración de diferentes t
 
 ## Pre-requisitos :pencil:
 * Contar con una cuenta en <a href="https://cloud.ibm.com/"> IBM Cloud </a>.
-* Contar con una VPC y un grupo de recursos.
+* Contar con una *VPC* y un grupo de recursos.
+* Contar con una *VSI* en *VPC*.
 <br />
 
 ## Crear servicio File Storage :card_file_box:
@@ -161,6 +162,33 @@ Para consultar el servicio de almacenamiento *Object Storage* implementado en la
 <br />
 
 ## Crear volumen de Block Storage for VPC :cloud: :package:
+Para crear el servicio de almacenamiento *Block Storage for VPC* en su cuenta de *IBM Cloud* complete los siguientes pasos:
+<br />
+
+1. Ingrese al  ```Menú de navegación/Navigation Menu``` ➡ ```Infraestructura VPC/VPC Infrastructure``` ➡ ```Almacenamiento/Storage``` ➡ ```Volúmenes de almacenamiento en bloques/Block storage volumes``` y de click en el botón ```Crear/To Create```.
+<br />
+
+2. Una vez cargue la nueva ventana complete la configuración del servicio de la siguiente manera:
+* ```Seleccionar un plan de precios/Select a pricing plan```: especifique el plan de precios que desea utilizar para el despliegue de su servicio.
+
+**Configurar su recurso/Configure your resource**: 
+* ```Nombre/Name```: indique un nombre exclusivo para su servicio.
+* ```Grupo de recursos/Resource group```: especifique el grupo de recursos en el que va a trabajar.
+* ```Ubicación/Location```: especifique el grupo de recursos en el que va a trabajar.
+
+**Perfil de volumen/Volume profile**
+* ```Niveles de IOPS/IOPS levels```: seleccione los niveles de IOPS con los que va a trabajar.
+* ```Tamaño/Size```: especifique el tamaño, recuerde que debe ser un valor entre 10 y 2000 GB.
+* ```Cifrado/Encryption```: seleccione el tipo de cifrado con lo que va a trabajar.
+<br />
+
+3. Para finalizar de click en el botón ```Crear/To Create```.
+<br />
+
+4. Espere unos minutos mientas se aprovisiona el servicio.
+<br />
+
+<p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/CrearBlockStorageVPC.gif"></p>
 <br />
 
 ## Adjuntar volumen de Block Storage a una VSI en VPC :cloud: :package:
