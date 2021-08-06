@@ -189,6 +189,16 @@ Para crear el servicio de almacenamiento *Block Storage for VPC* en su cuenta de
 <br />
 
 ## Adjuntar volumen de Block Storage a una VSI en VPC :cloud: :package:
+Para adjuntar el volumen de *Block Storage* a la *VSI* en *VPC*, complete los siguientes pasos:
+<br />
+
+1. En la pestaña ```Volúmenes de almacenamiento en bloques/Block storage volumes```, ubique el recurso, muévase hacia la derecha y de click en los tres puntos. Allí, seleccione la opción ```Conectar a instancia/Connect to instance```.
+<br />
+
+2. Posteriormente, seleccione la *VSI* con la que desea adjuntar el servicio y de click en el botón ```Conectar volumen```. Después de unos segundos le aparecerá un aviso indicando que el servicio se ha conectado. 
+<br />
+
+<p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/AdjuntarVSI-BS-VPC.gif"></p>
 <br />
 
 ## Consultar volumen de Block Storage desde una VSI en VPC :cloud: :package:
