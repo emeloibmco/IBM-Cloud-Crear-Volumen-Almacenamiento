@@ -2,6 +2,7 @@
 Los servidores virtuales son totalmente compatibles con *File Storage*, *Block Storage*, así como con *IBM® Cloud Object Storage*. Estos tipos de almacenamiento son los recomendados para unidades de clúster, almacenamiento de archivos compartidos, almacenamiento de archivado, grandes requisitos de almacenamiento o requisitos de rendimiento específicos.
 
 La presente guía esta enfocada en la creación y configuración de diferentes tipos de almacenamiento, asi como la capacidad de adjuntar un almacenamiento como un volumen a una VSI. 
+
 <br />
 
 ## Índice  📰
