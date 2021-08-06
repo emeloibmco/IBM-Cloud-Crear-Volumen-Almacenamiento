@@ -11,8 +11,8 @@ La presente guía esta enfocada en la creación y configuración de diferentes t
 6. [Crear servicio Object Storage](#Crear-servicio-Object-Storage-file_cabinet)
 7. [Consultar servicio Object Storage](#Consultar-servicio-Object-Storage-mag-file_cabinet)
 8. [Crear volumen de Block Storage for VPC](#Crear-volumen-de-Block-Storage-for-VPC-cloud-package)
-9. [Adjuntar volumen de Block Storage a una VSI en VPC](#Adjuntar-volumen-de-Block-Storage-a-una-VSI-en-VPC-cloud-package)
-10. [Consultar volumen de Block Storage desde una VSI en VPC](#Consultar-volumen-de-Block-Storage-desde-una-VSI-en-VPC-cloud-package)
+9. [Adjuntar volumen de Block Storage a una VSI en VPC](#Adjuntar-volumen-de-Block-Storage-a-una-VSI-en-VPC-cloud-computer)
+10. [Consultar volumen de Block Storage desde una VSI en VPC](#Consultar-volumen-de-Block-Storage-desde-una-VSI-en-VPC-mag-computer)
 11. [Referencias](#Referencias-pushpin)
 12. [Autores](#Autores-black_nib)
 
@@ -188,7 +188,7 @@ Para crear el servicio de almacenamiento *Block Storage for VPC* en su cuenta de
 <p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/CrearBlockStorageVPC.gif"></p>
 <br />
 
-## Adjuntar volumen de Block Storage a una VSI en VPC :cloud: :package:
+## Adjuntar volumen de Block Storage a una VSI en VPC :cloud: :computer:
 Para adjuntar el volumen de *Block Storage* a la *VSI* en *VPC*, complete los siguientes pasos:
 <br />
 
@@ -201,7 +201,7 @@ Para adjuntar el volumen de *Block Storage* a la *VSI* en *VPC*, complete los si
 <p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/AdjuntarVSI-BS-VPC.gif"></p>
 <br />
 
-## Consultar volumen de Block Storage desde una VSI en VPC :cloud: :package:
+## Consultar volumen de Block Storage desde una VSI en VPC :mag: :computer:
 <br />
 
 ## Referencias :pushpin:
