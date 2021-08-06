@@ -216,18 +216,42 @@ Posteriormente, indique la contraseña establecida cuando realizó la respectiva
 ```
 lsblk 
 ```
-Allí pordrá identificar el volumen *Block Storage* con el nombre vdd y el tamaño determinado en la creación.
+Allí podrá identificar el volumen *Block Storage* con el nombre vdd y el tamaño determinado en la creación.
 <br />
 
 <p align="center"><img width="500" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/AccesoVSI.PNG"></p>
 <br />
 
-3. Posteriormente, :
+3. Posteriormente, para crear la partición del disco, utilice:
 ```
-lsblk 
+fdisk -c /dev/vdd 
 ```
-
+A continuación, le aparecerá un texto ```Command (m for help)```, allí utilice los siguientes comandos (en el mismo orden en que se inidcan) para completar el proceso de partición:
+* Comando ```n``` para nueva particion.
+* Comando ```p``` para partición primaria.
+* Presione ```Enter``` cuando le aparezca ```Partition number```.
+* Presione ```Enter``` cuando le aparezca ```First Sector``` en la opción ```default```.
+* Presione ```Enter``` cuando le aparezca ```Last Sector``` en la opción ```default```.
 <br />
+
+<p align="center"><img width="500" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/Particion1.PNG"></p>
+<br />
+
+* Comando ```t``` para cambiar la etiqueta y valor ```83``` que corresponde a Linux.
+<br />
+
+<p align="center"><img width="500" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/Particion2.PNG"></p>
+<br />
+
+* Comando ```w``` para guardar los cambios.
+<br />
+
+<p align="center"><img width="500" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/Particion3.PNG"></p>
+<br />
+
+
+
+
 
 ## Referencias :pushpin:
 **File Storage**
