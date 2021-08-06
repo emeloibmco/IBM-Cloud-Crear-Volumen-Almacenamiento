@@ -226,7 +226,7 @@ Allí podrá identificar el volumen *Block Storage* con el nombre vdd y el tama�
 ```
 fdisk -c /dev/vdd 
 ```
-A continuación, le aparecerá un texto ```Command (m for help)```, allí utilice los siguientes comandos (en el mismo orden en que se inidcan) para completar el proceso de partición:
+A continuación, le aparecerá un texto ```Command (m for help)```, allí utilice los siguientes comandos (en el mismo orden en que se indican) para completar el proceso de partición:
 * Comando ```n``` para nueva particion.
 * Comando ```p``` para partición primaria.
 * Presione ```Enter``` cuando le aparezca ```Partition number```.
