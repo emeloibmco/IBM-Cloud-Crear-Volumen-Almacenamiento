@@ -298,7 +298,7 @@ df -h
 <p align="center"><img width="300" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/Verificar1.PNG"></p>
 <br />
 
-7. Para finalizar, utilice los comandos ```lsblk``` y ```df -h``` para observar la partición.
+7. Para finalizar, utilice los comandos ```lsblk``` y ```df -h``` para observar información sobre el disco y la partición.
 <br />
 
 <p align="center"><img width="500" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/DiskParticionVSI.PNG"></p>
