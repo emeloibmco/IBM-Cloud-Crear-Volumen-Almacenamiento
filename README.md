@@ -219,7 +219,7 @@ lsblk
 Allí pordrá identificar el volumen *Block Storage* con el nombre vdd y el tamaño determinado en la creación.
 <br />
 
-<p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/AccesoVSI.PNG"></p>
+<p align="center"><img width="500" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/AccesoVSI.PNG"></p>
 <br />
 
 3. Posteriormente, :
