@@ -286,6 +286,9 @@ Dentro del editor agregue la línea:
 <p align="center"><img width="400" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/Configurar2.PNG"></p>
 <br />
 
+Guarde los cambios y presione ```:q``` y luego presione ```Enter``` para salir del editor.
+<br />
+
 6. Realice la respectiva verificación con los comandos:
 ```
 umount /data1
