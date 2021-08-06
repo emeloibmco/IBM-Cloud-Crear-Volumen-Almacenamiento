@@ -225,7 +225,7 @@ Allí podrá identificar el volumen *Block Storage* con el nombre vdd y el tama�
 <p align="center"><img width="500" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/AccesoVSI.PNG"></p>
 <br />
 
-3. Posteriormente, para crear la partición del disco utilice:
+3. se debe crear la partición del disco, para ello utilice:
 ```
 fdisk -c /dev/vdd 
 ```
@@ -282,7 +282,7 @@ vi /etc/fstab
 
 Dentro del editor agregue la línea:
 ```
-"/dev/vdd1       /data1          ext4    defaults        0 0"
+/dev/vdd1       /data1          ext4    defaults        0 0
 ```
 <br />
 
