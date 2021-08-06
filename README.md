@@ -20,7 +20,7 @@ La presente guía esta enfocada en la creación y configuración de diferentes t
 ## Pre-requisitos :pencil:
 * Contar con una cuenta en <a href="https://cloud.ibm.com/"> IBM Cloud </a>.
 * Contar con una *VPC* y un grupo de recursos.
-* Contar con una *VSI* en *VPC*.
+* Contar con una *VSI* Linux en *VPC*.
 <br />
 
 ## Crear servicio File Storage :card_file_box:
@@ -202,6 +202,31 @@ Para adjuntar el volumen de *Block Storage* a la *VSI* en *VPC*, complete los si
 <br />
 
 ## Consultar volumen de Block Storage desde una VSI en VPC :mag: :computer:
+El último paso consiste en consultar el volumen *Block Storage* desde la *VSI* que está en *VPC*. Para ello, se deben utilizar una serie de comandos que se presentan en los siguientes pasos:
+<br />
+
+1. Acceda a la *VSI* Linux mediante *SSH*. Para ello coloque:
+```
+ssh root@<ip_flotante>
+```
+Posteriormente, indique la contraseña establecida cuando realizó la respectiva configuración de su *VSI*.
+<br />
+
+2. Una vez se encuente dentro de la *VSI* obtenga información acerca de los dispositivos de bloque (*block*) que hay disponibles, utilice el comando:
+```
+lsblk 
+```
+Allí pordrá identificar el volumen *Block Storage* con el nombre vdd y el tamaño determinado en la creación.
+<br />
+
+<p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/AccesoVSI.PNG"></p>
+<br />
+
+3. Posteriormente, :
+```
+lsblk 
+```
+
 <br />
 
 ## Referencias :pushpin:
