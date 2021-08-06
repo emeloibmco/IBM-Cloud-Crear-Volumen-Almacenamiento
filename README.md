@@ -169,9 +169,6 @@ Para crear el servicio de almacenamiento *Block Storage for VPC* en su cuenta de
 <br />
 
 2. Una vez cargue la nueva ventana complete la configuración del servicio de la siguiente manera:
-* ```Seleccionar un plan de precios/Select a pricing plan```: especifique el plan de precios que desea utilizar para el despliegue de su servicio.
-
-**Configurar su recurso/Configure your resource**: 
 * ```Nombre/Name```: indique un nombre exclusivo para su servicio.
 * ```Grupo de recursos/Resource group```: especifique el grupo de recursos en el que va a trabajar.
 * ```Ubicación/Location```: especifique el grupo de recursos en el que va a trabajar.
