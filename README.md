@@ -246,10 +246,63 @@ A continuación, le aparecerá un texto ```Command (m for help)```, allí utilic
 * Comando ```w``` para guardar los cambios.
 <br />
 
-<p align="center"><img width="500" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/Particion3.PNG"></p>
+<p align="center"><img width="300" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/Particion3.PNG"></p>
 <br />
 
+4. El paso siguiente consiste en formatear el disco con el comando:
+```
+mkfs.ext4 /dev/vdd1
+```
+<br />
 
+<p align="center"><img width="500" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/Formatear1.PNG"></p>
+<br />
+
+5. Luego se debe montar el disco mediante los comandos:
+```
+mkdir /data1
+mount /dev/vdd1 /data1
+```
+<br />
+
+<p align="center"><img width="300" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/MontarDisk.PNG"></p>
+<br />
+
+5. Se debe configurar el montaje de forma permanente mediante:
+```
+vi /etc/fstab
+```
+<br />
+
+<p align="center"><img width="300" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/Configurar1.PNG"></p>
+<br />
+
+Dentro del editor agregue la línea:
+```
+"/dev/vdd1       /data1          ext4    defaults        0 0"
+```
+<br />
+
+<p align="center"><img width="300" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/Configurar2.PNG"></p>
+<br />
+
+6. Realice la respectiva verificación con los comandos:
+```
+umount /data1
+df -h
+mount -a
+df -h
+```
+<br />
+
+<p align="center"><img width="300" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/Verificar1.PNG"></p>
+<br />
+
+7. Para finalizar, utilice los comandos ```lsblk``` y ```df -h``` para observar la partición.
+<br />
+
+<p align="center"><img width="500" src="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento/blob/main/Im%C3%A1genes/DiskParticionVSI.PNG"></p>
+<br />
 
 
 
